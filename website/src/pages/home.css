@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+.hone-wrapper {
+    background-color: #f1f1f1;
+}
+
+.home-hero {
+    width: 100vw;
+    height: 90vh;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    margin-top: 92px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.hero-home-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.hero-top {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 50%;
+    position: absolute;
+    bottom: 96px;
+    left: 96px;
+}
+
+.hero-h1 {
+    line-height: 140%;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.hero-h2 {
+    line-height: 140%;
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+    font-weight: 400;
+    color: white;
+}
+
+video::-webkit-media-controls {
+    display: none !important;
+}
+
+.hero-button-container {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    margin-top: 36px;
+}
+
+.primary-button {
+    color: white;
+    background-color: rgba(80, 68, 58, 1);
+    padding: 12px 24px;
+    border-radius: 200px;
+    font-size: 20px;
+    line-height: 140%;
+    margin: 0;
+    transition: all 0.1s ease;
+}
+
+.primary-button:hover {
+    background-color: rgba(138, 107, 87, 1);
+}
+
+.secondary-button {
+    color: rgba(80, 68, 58, 1);
+    background-color: rgba(252, 248, 240, 1);
+    padding: 12px 24px;
+    border-radius: 200px;
+    font-size: 20px;
+    line-height: 140%;
+    margin: 0;
+    transition: all 0.1s ease;
+}
+
+.secondary-button:hover {
+    background-color: rgba(227, 223, 214, 1);
+}
+
+.hero-darken {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+}
+
+.hero-video-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 12px;
+}
