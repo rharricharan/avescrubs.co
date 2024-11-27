@@ -20,6 +20,13 @@ const Home = () => {
                     <video className="hero-home-img" src="/assets/home-video.mp4" autoPlay loop muted playsInline />
                 </div>
             </div>
+            <div className="section-opening">
+                <div className="opening-text-container">
+                    <h2 className="opening-text">
+                        Healthcare workers <span className="highlight">dedicate</span> their life creating a healthier future. <span className="bottom-section">Now we are here to <span className="highlight-2">support</span> you.</span>
+                    </h2>
+                </div>
+            </div>
         </div>
             
     );

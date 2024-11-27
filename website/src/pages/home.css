@@ -39,6 +39,7 @@
     margin: 0;
     padding: 0;
     font-size: 20px;
+    letter-spacing: -0.6px;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.8);
 }
@@ -48,6 +49,8 @@
     margin: 0;
     padding: 0;
     font-size: 36px;
+    font-family: 'Inter';
+    letter-spacing: -2px;
     font-weight: 400;
     color: white;
 }
@@ -90,7 +93,7 @@ video::-webkit-media-controls {
 }
 
 .secondary-button:hover {
-    background-color: rgba(227, 223, 214, 1);
+    background-color: rgba(252, 248, 240, 0.9);
 }
 
 .hero-darken {
@@ -104,4 +107,39 @@ video::-webkit-media-controls {
     height: 100%;
     overflow: hidden;
     border-radius: 12px;
+}
+
+.section-opening {
+    width: 100%;
+    margin-top: 146px;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 28%;
+    padding-right: 28%;
+}
+
+.opening-text-container h2 {
+    font-size: 36px;
+    font-family: 'Inter';
+    text-align: center;
+    line-height: 140%;
+    letter-spacing: -2.5px;
+    font-weight: 400;
+    color: rgba(80, 68, 58, 1);
+}
+
+.highlight {
+    font-family: 'Playfair Display';
+    color: rgba(80, 68, 58, 1);
+}
+
+.bottom-section {
+    color: rgba(80, 68, 58, 0.6);
+}
+
+.highlight-2 {
+    font-family: 'Playfair Display';
+    color: rgba(80, 68, 58, 0.6);
 }
